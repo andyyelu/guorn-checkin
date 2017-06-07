@@ -25,5 +25,3 @@ with open('./log.txt', 'a+') as f:
             f.write('今天已经签到过，无须再签到了！本次验证时间为%s\n' % datetime.now())
     except Exception as e:
         print('签到异常', e)
-
-
